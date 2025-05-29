@@ -1,0 +1,86 @@
+  body {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+@media (max-width:728px){
+  body{
+    background-image: url("../img/fondo1.jpg");
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(58, 58, 58, 0.918);
+  gap: 3em;
+  margin-top: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: block;
+}
+
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+h1,h2{
+  text-align: center;
+  color: aliceblue;
+}
+
+iframe{
+  border-radius: 12px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.cancion {
+  background: rgba(58, 58, 58, 0.959);
+  padding: 1em;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.stick{
+  height: 100px;
+  position: fixed;
+  top: 0; /* se queda pegada al top cuando llega ahí */
+  z-index: 10;
+}
+
+
+
+footer{
+  text-align: center;
+  align-items: center;
+  background-color: rgba(58, 58, 58, 0.918);
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+
+img{
+  margin-right: 1em;
+}
+
+a:hover{
+  text-shadow: 0 0 5px ivory, 0 0 10px ivory, 0 0 20px #f5f5dc;
+}
