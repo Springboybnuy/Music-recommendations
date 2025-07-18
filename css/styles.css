@@ -63,11 +63,9 @@ iframe{
 .stick{
   height: 100px;
   position: fixed;
-  top: 0; /* se queda pegada al top cuando llega ahí */
+  top: 0;
   z-index: 10;
 }
-
-
 
 footer{
   text-align: center;
@@ -83,4 +81,19 @@ img{
 
 a:hover{
   text-shadow: 0 0 5px ivory, 0 0 10px ivory, 0 0 20px #f5f5dc;
+}
+
+textarea {
+  min-height: 2em;
+}
+
+input{
+  min-height: 2em;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-top: 4px;
 }

@@ -139,47 +139,38 @@
 
   </section>
 
-  <div class="contenedor espacio">
 
-    <div class="cancion">
-      <h3>¿Querés recomendar algo?</h3>
+  <div class="contenedor">
+  <div class="cancion">
+    <h3>¿Querés recomendar algo?</h3>
 
-  <form
-    action="https://formspree.io/f/xovwaabj"
-    method="POST"
->
-      Tu canción:
-    <textarea name="message"></textarea>
-  </label>
+    <form
+      id="formulario"
+      action="https://formspree.io/f/xovwaabj"
+      method="POST"
+      novalidate
+    >
+      <label for="cancion">Tu canción:</label>
+      <br>
+      <textarea id="cancion" name="message"></textarea>
+      <span id="error-cancion" class="error"></span>
 
-  <br>
+      <br>
 
-  <label>
+      <label for="email">Tu correo:</label>
+      <br>
+      <input type="email" id="email" name="email">
+      <span id="error-email" class="error"></span>
 
-  <label>
-    Tu correo:
-    <input type="email" name="email">
-  </label>
+      <br>
 
-  <button type="submit">Enviar</button>
-
-  </form>
-
-
-    </div>
-    
-  </form>
-
-
+      <button type="submit">Enviar</button>
+    </form>
   </div>
+</div>
+
 
  
-
-
-
-
-
-
   </main>  
 
   <footer>
@@ -188,5 +179,8 @@
     <a href="#"> <img src="img/youtube.png" alt="youtube"></a>
   </footer>
   
+
+  
+  <script src="js/script.js"></script>
 </body>
 </html>
